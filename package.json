@@ -1,0 +1,18 @@
+{
+  "name": "nuru-communications-platform",
+  "version": "1.0.0",
+  "description": "Nuru Communications Group — Team Management Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
